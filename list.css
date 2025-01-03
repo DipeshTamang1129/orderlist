@@ -1,0 +1,103 @@
+/*all element selector : should add in all css*/
+body {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*id selector*/
+#main-title {
+    background-color: grey;
+    height: 80px;
+    width: 100%;
+    color: whitesmoke;
+    font-size: 50px;
+    display: flex;
+    /*make flexible*/
+    justify-content: center;
+    /*horizentally center*/
+    align-items: center;
+    /*vertically center*/
+}
+
+/*class selector*/
+#main-body {
+    margin: 20px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Card {
+    border-radius: 10px;
+    min-height: 300px;
+    /*border bottom: width type color*/
+    border-bottom: 4px solid red;
+    width: 250px;
+    /* border-shadow:x- offset y-offset blur-radious spread-radious color*/
+    box-shadow: 3px 3px 20px 10px grey;
+}
+
+.CardTitle {
+    height: 60px;
+    background-color: red;
+    font-size: 30px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border radius:top-right top-left bottom-right bottom-left*/
+    border-radius: 10px 10px 0px 0px;
+}
+
+.Card2 {
+    border-radius: 10px;
+    min-height: 300px;
+    border-bottom: 4px solid yellow;
+    width: 250px;
+    box-shadow: 3px 3px 20px 10px grey;
+}
+
+.CardTitle2 {
+    height: 60px;
+    background-color: yellow;
+    font-size: 30px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.Card3 {
+    border-radius: 10px;
+    min-height: 300px;
+    border-bottom: 4px solid blue;
+    width: 250px;
+    box-shadow: 3px 3px 20px 10px grey;
+}
+
+.CardTitle3 {
+    height: 60px;
+    background-color: blue;
+    font-size: 30px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+}
+dt{color: red;}
+li{
+    padding: 10px 32px;
+}
+ol li:nth-child(even){
+    background-color: grey;
+}
+ol li, ul li{
+    list-style-position: inside;
+    padding: 10px 16px;
+}
+ol, ul{
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,37 @@
+table{
+   /* border-collapse: collapse;*/
+    border: 2px solid grey;/*width type color*/
+   /* background-color: teal;*/
+    background-image: url("https://img.freepik.com/free-photo/trick-treat-baskets_23-2147680220.jpg?t=st=1736132805~exp=1736136405~hmac=61fce754e5ab97c33ebc320f89af5a675bb20ba696974953fdb62db9d77b1dc5&w=740");/*background image*/
+    border-radius: 40px;
+    overflow: hidden;
+}
+/*Row size all*/
+tr{
+    height: 100px;
+    /*background-color: purple;all row background*/
+}
+/*Column width*/
+th{
+    width: 120px;
+}
+td{
+    width: 120px;
+}
+/*specific*/
+#manage{
+    width: 30%;
+    /*background-color: red;*/
+}
+/*specific row height*/
+#last-row{
+    height: 40px;
+}
+/*all cells background*/
+th, td{
+    /*background-color: blue;*/
+    /* border-radius: 40px; */
+}
+.manage{
+   /* background-color: deepskyblue;*/
+}
